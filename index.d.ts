@@ -1,4 +1,4 @@
-declare module '@primer/components' {
+declare module '@elwood-studio/primer-components' {
   type Omit<T, K> = Pick<T, Exclude<keyof T, K>>
   import * as StyledSystem from 'styled-system'
   import {SystemStyleObject} from '@styled-system/css'
@@ -508,226 +508,226 @@ declare module '@primer/components' {
 
   export const ProgressBar: React.FunctionComponent<ProgressBarProps>
 }
-declare module '@primer/components/lib/Box' {
-  import {Box} from '@primer/components'
+declare module '@elwood-studio/primer-components/lib/Box' {
+  import {Box} from '@elwood-studio/primer-components'
   export default Box
 }
 
-declare module '@primer/components/lib/Text' {
-  import {Text} from '@primer/components'
+declare module '@elwood-studio/primer-components/lib/Text' {
+  import {Text} from '@elwood-studio/primer-components'
   export default Text
 }
 
-declare module '@primer/components/lib/Heading' {
-  import {Heading} from '@primer/components'
+declare module '@elwood-studio/primer-components/lib/Heading' {
+  import {Heading} from '@elwood-studio/primer-components'
   export default Heading
 }
 
-declare module '@primer/components/lib/ButtonDanger' {
-  import {ButtonDanger} from '@primer/components'
+declare module '@elwood-studio/primer-components/lib/ButtonDanger' {
+  import {ButtonDanger} from '@elwood-studio/primer-components'
   export default ButtonDanger
 }
 
-declare module '@primer/components/lib/ButtonPrimary' {
-  import {ButtonPrimary} from '@primer/components'
+declare module '@elwood-studio/primer-components/lib/ButtonPrimary' {
+  import {ButtonPrimary} from '@elwood-studio/primer-components'
   export default ButtonPrimary
 }
 
-declare module '@primer/components/lib/ButtonOutline' {
-  import {ButtonOutline} from '@primer/components'
+declare module '@elwood-studio/primer-components/lib/ButtonOutline' {
+  import {ButtonOutline} from '@elwood-studio/primer-components'
   export default ButtonOutline
 }
 
-declare module '@primer/components/lib/ButtonTableList' {
-  import {ButtonTableList} from '@primer/components'
+declare module '@elwood-studio/primer-components/lib/ButtonTableList' {
+  import {ButtonTableList} from '@elwood-studio/primer-components'
   export default ButtonTableList
 }
 
-declare module '@primer/components/lib/ButtonGroup' {
-  import {ButtonGroup} from '@primer/components'
+declare module '@elwood-studio/primer-components/lib/ButtonGroup' {
+  import {ButtonGroup} from '@elwood-studio/primer-components'
   export default ButtonGroup
 }
 
-declare module '@primer/components/lib/Button' {
-  import {Button} from '@primer/components'
+declare module '@elwood-studio/primer-components/lib/Button' {
+  import {Button} from '@elwood-studio/primer-components'
   export default Button
 }
 
-declare module '@primer/components/lib/Flex' {
-  import {Flex} from '@primer/components'
+declare module '@elwood-studio/primer-components/lib/Flex' {
+  import {Flex} from '@elwood-studio/primer-components'
   export default Flex
 }
 
-declare module '@primer/components/lib/Avatar' {
-  import {Avatar} from '@primer/components'
+declare module '@elwood-studio/primer-components/lib/Avatar' {
+  import {Avatar} from '@elwood-studio/primer-components'
   export default Avatar
 }
 
-declare module '@primer/components/lib/AvatarPair' {
-  import {AvatarPair} from '@primer/components'
+declare module '@elwood-studio/primer-components/lib/AvatarPair' {
+  import {AvatarPair} from '@elwood-studio/primer-components'
   export default AvatarPair
 }
 
-declare module '@primer/components/lib/Details' {
-  import {Details} from '@primer/components'
+declare module '@elwood-studio/primer-components/lib/Details' {
+  import {Details} from '@elwood-studio/primer-components'
   export default Details
 }
 
-declare module '@primer/components/lib/BaseStyles' {
-  import {BaseStyles} from '@primer/components'
+declare module '@elwood-studio/primer-components/lib/BaseStyles' {
+  import {BaseStyles} from '@elwood-studio/primer-components'
   export default BaseStyles
 }
 
-declare module '@primer/components/lib/BorderBox' {
-  import {BorderBox} from '@primer/components'
+declare module '@elwood-studio/primer-components/lib/BorderBox' {
+  import {BorderBox} from '@elwood-studio/primer-components'
   export default BorderBox
 }
 
-declare module '@primer/components/lib/BranchName' {
-  import {BranchName} from '@primer/components'
+declare module '@elwood-studio/primer-components/lib/BranchName' {
+  import {BranchName} from '@elwood-studio/primer-components'
   export default BranchName
 }
-declare module '@primer/components/lib/CircleBadge' {
-  import {CircleBadge} from '@primer/components'
+declare module '@elwood-studio/primer-components/lib/CircleBadge' {
+  import {CircleBadge} from '@elwood-studio/primer-components'
   export default CircleBadge
 }
-declare module '@primer/components/lib/CircleOcticon' {
-  import {CircleOcticon} from '@primer/components'
+declare module '@elwood-studio/primer-components/lib/CircleOcticon' {
+  import {CircleOcticon} from '@elwood-studio/primer-components'
   export default CircleOcticon
 }
-declare module '@primer/components/lib/StyledOcticon' {
-  import {StyledOcticon} from '@primer/components'
+declare module '@elwood-studio/primer-components/lib/StyledOcticon' {
+  import {StyledOcticon} from '@elwood-studio/primer-components'
   export default StyledOcticon
 }
-declare module '@primer/components/lib/Dropdown' {
-  import {Dropdown} from '@primer/components'
+declare module '@elwood-studio/primer-components/lib/Dropdown' {
+  import {Dropdown} from '@elwood-studio/primer-components'
   export default Dropdown
 }
-declare module '@primer/components/lib/FilterList' {
-  import {FilterList} from '@primer/components'
+declare module '@elwood-studio/primer-components/lib/FilterList' {
+  import {FilterList} from '@elwood-studio/primer-components'
   export default FilterList
 }
-declare module '@primer/components/lib/Flash' {
-  import {Flash} from '@primer/components'
+declare module '@elwood-studio/primer-components/lib/Flash' {
+  import {Flash} from '@elwood-studio/primer-components'
   export default Flash
 }
 
-declare module '@primer/components/lib/Grid' {
-  import {Grid} from '@primer/components'
+declare module '@elwood-studio/primer-components/lib/Grid' {
+  import {Grid} from '@elwood-studio/primer-components'
   export default Grid
 }
 
-declare module '@primer/components/lib/CounterLabel' {
-  import {CounterLabel} from '@primer/components'
+declare module '@elwood-studio/primer-components/lib/CounterLabel' {
+  import {CounterLabel} from '@elwood-studio/primer-components'
   export default CounterLabel
 }
 
-declare module '@primer/components/lib/Label' {
-  import {Label} from '@primer/components'
+declare module '@elwood-studio/primer-components/lib/Label' {
+  import {Label} from '@elwood-studio/primer-components'
   export default Label
 }
 
-declare module '@primer/components/lib/Link' {
-  import {Link} from '@primer/components'
+declare module '@elwood-studio/primer-components/lib/Link' {
+  import {Link} from '@elwood-studio/primer-components'
   export default Link
 }
-declare module '@primer/components/lib/Pagination' {
-  import {Pagination} from '@primer/components'
+declare module '@elwood-studio/primer-components/lib/Pagination' {
+  import {Pagination} from '@elwood-studio/primer-components'
   export default Pagination
 }
-declare module '@primer/components/lib/PointerBox' {
-  import {PointerBox} from '@primer/components'
+declare module '@elwood-studio/primer-components/lib/PointerBox' {
+  import {PointerBox} from '@elwood-studio/primer-components'
   export default PointerBox
 }
-declare module '@primer/components/lib/Popover' {
-  import {Popover} from '@primer/components'
+declare module '@elwood-studio/primer-components/lib/Popover' {
+  import {Popover} from '@elwood-studio/primer-components'
   export default Popover
 }
-declare module '@primer/components/lib/Relative' {
-  import {Relative} from '@primer/components'
+declare module '@elwood-studio/primer-components/lib/Relative' {
+  import {Relative} from '@elwood-studio/primer-components'
   export default Relative
 }
-declare module '@primer/components/lib/Absolute' {
-  import {Absolute} from '@primer/components'
+declare module '@elwood-studio/primer-components/lib/Absolute' {
+  import {Absolute} from '@elwood-studio/primer-components'
   export default Absolute
 }
-declare module '@primer/components/lib/Sticky' {
-  import {Sticky} from '@primer/components'
+declare module '@elwood-studio/primer-components/lib/Sticky' {
+  import {Sticky} from '@elwood-studio/primer-components'
   export default Sticky
 }
-declare module '@primer/components/lib/Fixed' {
-  import {Fixed} from '@primer/components'
+declare module '@elwood-studio/primer-components/lib/Fixed' {
+  import {Fixed} from '@elwood-studio/primer-components'
   export default Fixed
 }
 
-declare module '@primer/components/lib/Pagehead' {
-  import {Pagehead} from '@primer/components'
+declare module '@elwood-studio/primer-components/lib/Pagehead' {
+  import {Pagehead} from '@elwood-studio/primer-components'
   export default Pagehead
 }
 
-declare module '@primer/components/lib/SelectMenu' {
-  import {SelectMenu} from '@primer/components'
+declare module '@elwood-studio/primer-components/lib/SelectMenu' {
+  import {SelectMenu} from '@elwood-studio/primer-components'
   export default SelectMenu
 }
 
-declare module '@primer/components/lib/StateLabel' {
-  import {StateLabel} from '@primer/components'
+declare module '@elwood-studio/primer-components/lib/StateLabel' {
+  import {StateLabel} from '@elwood-studio/primer-components'
   export default StateLabel
 }
 
-declare module '@primer/components/lib/TabNav' {
-  import {TabNav} from '@primer/components'
+declare module '@elwood-studio/primer-components/lib/TabNav' {
+  import {TabNav} from '@elwood-studio/primer-components'
   export default TabNav
 }
-declare module '@primer/components/lib/TextInput' {
-  import {TextInput} from '@primer/components'
+declare module '@elwood-studio/primer-components/lib/TextInput' {
+  import {TextInput} from '@elwood-studio/primer-components'
   export default TextInput
 }
-declare module '@primer/components/lib/Timeline' {
-  import {Timeline} from '@primer/components'
+declare module '@elwood-studio/primer-components/lib/Timeline' {
+  import {Timeline} from '@elwood-studio/primer-components'
   export default Timeline
 }
-declare module '@primer/components/lib/Tooltip' {
-  import {Tooltip} from '@primer/components'
+declare module '@elwood-studio/primer-components/lib/Tooltip' {
+  import {Tooltip} from '@elwood-studio/primer-components'
   export default Tooltip
 }
-declare module '@primer/components/lib/UnderlineNav' {
-  import {UnderlineNav} from '@primer/components'
+declare module '@elwood-studio/primer-components/lib/UnderlineNav' {
+  import {UnderlineNav} from '@elwood-studio/primer-components'
   export default UnderlineNav
 }
-declare module '@primer/components/lib/SideNav' {
-  import {SideNav} from '@primer/components'
+declare module '@elwood-studio/primer-components/lib/SideNav' {
+  import {SideNav} from '@elwood-studio/primer-components'
   export default SideNav
 }
-declare module '@primer/components/lib/SubNav' {
-  import {SubNav} from '@primer/components'
+declare module '@elwood-studio/primer-components/lib/SubNav' {
+  import {SubNav} from '@elwood-studio/primer-components'
   export default SubNav
 }
-declare module '@primer/components/lib/theme' {
-  import {theme} from '@primer/components'
+declare module '@elwood-studio/primer-components/lib/theme' {
+  import {theme} from '@elwood-studio/primer-components'
   export default theme
 }
-declare module '@primer/components/lib/Dialog' {
-  import {Dialog} from '@primer/components'
+declare module '@elwood-studio/primer-components/lib/Dialog' {
+  import {Dialog} from '@elwood-studio/primer-components'
   export default Dialog
 }
 
-declare module '@primer/components/lib/LabelGroup' {
-  import {LabelGroup} from '@primer/components'
+declare module '@elwood-studio/primer-components/lib/LabelGroup' {
+  import {LabelGroup} from '@elwood-studio/primer-components'
   export default LabelGroup
 }
 
-declare module '@primer/components/lib/ProgressBar' {
-  import {ProgressBar} from '@primer/components'
+declare module '@elwood-studio/primer-components/lib/ProgressBar' {
+  import {ProgressBar} from '@elwood-studio/primer-components'
   export default ProgressBar
 }
 
-declare module '@primer/components/lib/AvatarStack' {
-  import {AvatarStack} from '@primer/components'
+declare module '@elwood-studio/primer-components/lib/AvatarStack' {
+  import {AvatarStack} from '@elwood-studio/primer-components'
   export default AvatarStack
 }
 
-declare module '@primer/components/lib/Breadcrumbs' {
-  import {Breadcrumb} from '@primer/components'
+declare module '@elwood-studio/primer-components/lib/Breadcrumbs' {
+  import {Breadcrumb} from '@elwood-studio/primer-components'
   export default Breadcrumb
 }
